@@ -44,10 +44,9 @@ class News extends Component {
         )
     return (
       <div className='container'>
-        <div className="row">
-        {newsList}
-
-        </div>
+         <div className="col s8">
+          {newsList}
+          </div>
       </div>
       
     );
