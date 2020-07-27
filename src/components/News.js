@@ -31,15 +31,11 @@ class News extends Component {
                  </div>
                  <div className="card-action">
                    <a href={news.url}>Read more....</a>
-                 </div>
-
-
-           
+                 </div>         
             
-          
-            </div>
+      </div>
           )
-        }) ) :(
+        })) : (
           <div className="center"><h4>Waiting for News......</h4></div>
         )
     return (
